@@ -1,4 +1,4 @@
 maven-test-process-plugin-documentation
 =======================================
 
-Documentation sources for maven-test-process-plugin
+This repo contains the sources for the maven-test-process-plugin project, which are deployed on https://readthedocs.org/builds/maven-test-process-plugin

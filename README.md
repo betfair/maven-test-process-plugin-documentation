@@ -3,6 +3,18 @@ maven-test-process-plugin-documentation
 
 This repo contains the code to generate the site for [maven-test-process-plugin](http://github.com/betfair/maven-test-process-plugin). It publishes to the gh-pages branch of that project to push to t'internet.
 
+Publishing
+----------
+Run 
+
+    ./publish.sh <version> <github-username>
+
+This requires that the following exist:
+* Repository betfair/maven-test-process-plugin-documentation with branch <version>
+* Repository betfair/maven-test-process-plugin with branch gh-pages
+* Repository betfair/maven-test-process-plugin with branch <version>
+
+
 Licensing
 ---------
 

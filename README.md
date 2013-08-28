@@ -5,21 +5,8 @@ This repo contains the code to generate the site for [maven-test-process-plugin]
 
 Publishing
 ----------
-Run 
 
-    ./publish.sh <version> <github-username>
-
-This requires that the following exist:
-* Repository betfair/maven-test-process-plugin-documentation with branch &lt;version>
-* Repository betfair/maven-test-process-plugin with branch gh-pages
-* Repository betfair/maven-test-process-plugin with branch &lt;version>
-
-And will perform the following:
-* Remove all docs from repository betfair/maven-test-process-plugin with branch gh-pages in folder &lt;version>
-* Copy all docs from repository betfair/maven-test-process-plugin-documentation with branch &lt;version> to that directory
-* Generate the maven site for that version and place in a "maven" subdirectory
-
-Top level docs which are not version specific are held in betfair/maven-test-process-plugin with branch gh-pages.
+Use [betfair/gh-pages-publishing](http://github.com/betfair/gh-pages-publishing).
 
 
 Licensing

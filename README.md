@@ -25,7 +25,7 @@ Top level docs which are not version specific are held in betfair/maven-test-pro
 Licensing
 ---------
 
-The maven-test-command-plugin is covered by "[The Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)":
+The maven-test-command-plugin-documentation is covered by "[The Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)":
 
     Copyright 2013, The Sporting Exchange Limited
     
